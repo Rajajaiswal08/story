@@ -1,0 +1,278 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+.text-color{
+    background-color: white;
+}
+.navbar-brand{
+    color: black;
+    font-weight: 900;
+}
+.navbar-brand span{
+  color: yellow;
+  font-size: 30px;
+}
+section{
+  max-width: 1171px;
+  margin: auto;
+}
+.left-col{
+  padding: 25px;
+}
+.left-col h1{
+  font-size: 50px;
+  font-weight: 900;
+  border-bottom: 4px solid black;
+  padding-bottom: 20px;
+}
+.left-col h3{
+  font-size: 16px;
+  font-weight: 100;
+}
+.left-col p{
+  font-size: 21px;
+  font-weight: 100;
+}
+.left-col p>a{
+  background-color: rgb(15, 14, 13);
+  color: white;
+}
+.left-col p>a:hover{
+  background-color: red;
+}
+.forward button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+.next button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+.forward button:hover{
+  background-color: black;
+  color: white;
+}
+.next button:hover{
+  background-color: black;
+  color: white;
+}
+  /* .cl-1{
+  width: 100%;
+  height: 100px;
+  background-color: #ffd615;
+  padding: -100px;
+ }  */
+.mb-4 {
+  font-weight: 900;
+   padding-top: 100PX;
+}
+.mb-4 span{
+color: rgb(210, 210, 29); 
+font-weight: 900; 
+}
+.text{
+  padding: 30px;
+position: relative;
+}
+.text span{
+   color: #ffd615;
+   font-weight: 700;
+}
+.text h3>a{
+  color: #fff;
+  font-size: 42px;
+  text-decoration: none;
+}
+.text{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+}
+
+.rose{
+  width: 150px;
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.col-6{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-r1{
+  width: 50%;
+
+}
+.box-img{
+  width: 47%;
+  padding: 0px;
+ 
+}
+
+.img-div{
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+  
+  /* border: 2px solid black; */
+
+  .span-tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row-mg{
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+  }
+  .row-mg span{
+    font-size: 50px;
+    color: #ffd615;
+  }
+  .box-pg :nth-child(4){
+    background-color: black;
+    width: 55%;
+    padding: 10px;
+   
+  }
+  .box-pg :nth-child(4):hover{
+    background-color: rgb(253, 95, 0) ;
+  } 
+
+  .img-div img:hover{
+    transform: scale(1.1);
+    background-size: cover;
+    transition: all 0.3s ease;
+  }
+
+.img-fluidt{
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+}
+
+  .sraech{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid rgb(222, 219, 219);
+   position: absolute;
+   bottom: 0px;
+   padding: 10px;
+   background-color: white;
+  }
+.sraech input{
+  text-decoration: none;
+  border: none;
+ outline: none;
+  justify-content: space-between;
+}
+
+.lext-cont{
+  background: rgba(0, 0, 0, 0.03);
+  color: rgb(238, 231, 231);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  position: relative;
+   
+
+}
+.lext-cont {
+  padding: 40px !important;
+  color: rgb(61, 58, 58);
+}
+.row2-cl{
+  width: 100%;
+  background: #1f1f1f;
+  padding:24px 48px !important;
+}
+.row2-cl h1{
+  color: #fff;
+}
+.row2-cl{
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.signature{
+  font-style: italic;
+font-size: 24px;
+font-family: "Playfair Display", serif;
+color: rgba(255, 255, 255, 0.2);
+text-decoration: underline;
+}
+.box-img-2{
+  width: 100%;
+  height: 89%;
+  margin-top: 7%;
+  background-size: cover;
+}
+.bg-img{
+  width: 100%;
+  height: 550px;
+}
+.box-text{
+  color: #999999;
+  background-color: #f8f9fa;
+  padding-top:0px;
+  display: flex !important;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  text-align: center;
+
+}
+.box-text h1{
+  color: #1f1f1f;
+  align-items: center;
+
+ 
+}
+.box-text p{
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.form-grout{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 25px;
+}
+.fot-2 ul a{
+  list-style: none;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+.fot-2 p a{
+  text-decoration: none;
+  list-style: none;
+  color: #1f1f1f;
+}
